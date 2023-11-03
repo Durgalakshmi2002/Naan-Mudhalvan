@@ -1,0 +1,36 @@
+body{
+  background-image: url("clip.jpg");
+  background-size: cover;
+    background-repeat: no-repeat;
+}
+.TodoList {
+    margin: 4rem auto;
+    padding: 2rem 3rem 3rem;
+    max-width: 500px;
+    background: grey;
+    border-radius: 10px;
+    color: black;
+    /* box-shadow: -20px -20px 0px 0px rgba(100, 100, 100, 0.1); */
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .TodoList ul {
+    margin-top: 2.6rem;
+    list-style: none;
+  }
+  
+  .TodoList h1 {
+    font-weight: normal;
+    font-size: 2.6rem;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid grey;
+  }
+  
+  .TodoList h1 span {
+    display: block;
+    font-size: 0.8rem;
+    margin-bottom: 0.7rem;
+    margin-left: 3px;
+    margin-top: 0.2rem;
+  }
+  
